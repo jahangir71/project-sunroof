@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="resources/img/index.png">
+    <title>Project Sunroof</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/style.css">
+</head>
+<body>
+   <!--START HEADER AREA-->
+    <div class="header">
+        <div class="header-row">
+            <div class="logo">
+                <img src="resources/img/logo.png" alt="LOGO">
+            </div>
+            <div class="header-menu">
+                <ul>
+                    <li class="active"><a href="#">Savings estimator</a></li>
+                    <li><a href="data-explore.html">Data explore</a></li>
+                    <li><a href="solar101.html">Solar 101</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <input type="checkbox" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner top"></div>
+        <div class="spinner middle"></div>
+        <div class="spinner bottom"></div>
+    </label>
+    <div id="sidebarMenu">
+        <ul class="menu">
+            <li class="active"><a href="#">Savings estimator</a></li>
+            <li><a href="data-explore.html">Data explore</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="solar101.html">Solar 101</a></li>
+            <li><a href="install-process.html">installation Process</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="row">
+            <div class="img-wrap">
+                <img src="resources/img/horiz-logo-dark.png" alt="logo">
+            </div>
+            <div class="main-content">
+               <div class="search-bar">
+                   <input type="text" placeholder="Enter home address">
+                   <button>check my roof</button>
+               </div>
+                <p> Search for your home. Discover your solar savings potential. </p>
+                <div class="hr"></div>
+                <p>See what’s possible with solar in your community.</p>
+                <a class="btn btn-hero" href="#">explore your area</a>
+            </div>
+            </div>
+        </div>
+    <!--END HEADER AREA-->
+    <!--START WORK AREA-->
+    <section id="work-section">
+        <div class="row">
+            <h2>How Project Sunroof Works </h2>
+            <p class="little-description">Your own personalized solar savings estimator, powered by Google Earth imagery. </p>
+        </div>
+        <div class="row">
+           <div class="flex-container">
+               <div class="img-side">
+                <img src="resources/img/2b-how-works.png" alt="2B_WORKS">
+            </div>
+            <div class="content-side">
+                <h1>1</h1>
+                <h3>Search for your home</h3>
+                <p>We use Google Earth imagery to analyze your roof shape and local weather patterns to create a personalized solar plan. </p>
+            </div>
+        </div>
+     </div>
+     <div class="row">
+           <div class="flex-container">
+               <div class="img-side">
+                <img class="img-2" src="resources/img/volt_and_panel.png" alt="VOLT">
+            </div>
+            <div class="content-side">
+                <h1>2</h1>
+                <h3>Personalize your solar analysis</h3>
+                <p>Adjust your electric bill to fine-tune your savings estimate and the recommended number of solar panels for your home. </p>
+            </div>
+        </div>
+     </div>
+     <div class="row">
+           <div class="flex-container">
+               <div class="img-side">
+                <img class="img-3" src="resources/img/savings@2X.png" alt="VOLT">
+            </div>
+            <div class="content-side">
+                <h1>3</h1>
+                <h3>Compare finance options</h3>
+                <p>Compare loan, lease, and purchase options for your solar panels based on your results.</p>
+            </div>
+        </div>
+     </div>          
+    </section>
+    <!--END WORK AREA-->
+    <!--START HOUSE AREA-->
+    <section class="house-section">
+        <div class="row">
+            <h2>Customized savings estimate </h2>
+            <p class="little-description">Solar savings are calculated using roof size and shape, shaded roof areas, local weather, local electricity prices, solar costs, and estimated incentives over time. Using a sample address, take a look at the detailed estimate Project Sunroof can give you. </p>
+        </div>
+        <div class="row">
+            <div class="house-container">
+               <div class="preview">
+                   <h4>15 Glendale Ave, Somerville, MA 02144, USA</h4>
+                   <div class="mobile-line"></div>
+                  <div class="icon">
+                    <img src="resources/img/ic_sun.png" alt="SUN">
+                  </div>
+                 <p class="tittle">1,479 hours of usable sunlight per year </p>
+                 <p class="caption">Based on day-to-day analysis of weather patterns</p>
+                 <div class="icon-gap">
+                     <div class="icon ">
+                        <img src="resources/img/ic_house.png" alt="SUN">
+                     </div>
+                     <p class="tittle">497 sq feet available for solar panels</p>
+                     <p class="caption">Based on 3D modeling of roof and nearby trees </p>
+                     <div class="mobile-line"></div>
+                 </div>
+                 <h3>$18,000 savings </h3>
+                 <p class="caption">Estimated net savings for roof over 20 years</p>
+                 <button>check my roof</button>    
+                 </div>
+                 <div class="preview-img">
+                    <img src="resources/img/masked-house.png" alt="HOUSE">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END HOUSE AREA-->
+    <!--START AREA-WIDE AREA-->
+    <section class="area-section">
+        <div class="row">
+            <h2>Area-wide solar potential</h2>
+            <p class="little-description">Search for a city, state, or zip code to see solar potential and impact across entire geographic areas. We <br> currently have solar data for portions of 50 states and Washington DC. See if we’ve got you covered. </p>
+            <a class="btn area-btn" href="#">explore your area</a>
+        </div>
+        <div class="row">
+            <div class="area-img">
+                <img src="resources/img/coverage.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!--END AREA-WIDE AREA-->
+    <!--START CALCULATE AREA-->
+    <section class="calculate-section">
+        <div class="row">
+        <h2>Start saving with solar </h2>
+        <div class="search-bar">
+            <input type="text" placeholder="Enter home address">
+            <button>calculate</button>
+        </div>
+    </div>
+    </section>
+    <!--END CALCULATE AREA-->
+    <!--START FOOTER AREA-->
+    <footer class="footer-section">
+        <div class="footer-logo">
+            <img src="resources/img/googlelogo.png" alt="GOOGLE_LOGO">
+        </div>
+        <div class="footer-menu">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms </a></li>
+                <li><a href="#">Send feedback</a></li>
+            </ul>
+        </div>
+    </footer>
+    <!--END FOOTER AREA-->
+</body>
+</html>
